@@ -272,10 +272,11 @@ nav ul a {
 
 .switch {
   color: #dddddd;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 29px;
-  letter-spacing: 4.8px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
   text-align: center;
   cursor: pointer;
 }
@@ -364,37 +365,72 @@ nav ul a {
   }
 }
 
-.tab-info p {
+.tab-info button {
+  border: 4px solid #eb4d55;
+  background-color: #eb4d55;
+  padding: 20px 40px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  margin-left: calc((100vw - 1200px) / 2);
+}
+
+@media (max-width: 1279.98px) {
+  .tab-info button {
+    margin-left: calc((100vw - 960px) / 2);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .tab-info button {
+    margin-left: calc((100vw - 720px) / 2);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tab-info button {
+    margin-left: calc((100vw - 540px) / 2);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .tab-info button {
+    margin-left: 10px;
+  }
+}
+
+.tab-info p, .tab-info ul {
   padding-left: calc((100vw - 1200px) / 2);
 }
 
 @media (max-width: 1279.98px) {
-  .tab-info p {
+  .tab-info p, .tab-info ul {
     padding-left: calc((100vw - 960px) / 2);
   }
 }
 
 @media (max-width: 991.98px) {
-  .tab-info p {
+  .tab-info p, .tab-info ul {
     padding-left: calc((100vw - 720px) / 2);
   }
 }
 
 @media (max-width: 767.98px) {
-  .tab-info p {
+  .tab-info p, .tab-info ul {
     padding-left: calc((100vw - 540px) / 2);
   }
 }
 
 @media (max-width: 575.98px) {
-  .tab-info p {
+  .tab-info p, .tab-info ul {
     padding-left: 10px;
   }
 }
 
 .tab-img {
   background-size: cover;
-  background-position: center;
   width: 500px;
   position: relative;
 }
