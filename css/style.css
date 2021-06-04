@@ -394,6 +394,7 @@ nav ul a {
 
 .tab-img {
   background-size: cover;
+  background-position: center;
   width: 500px;
   position: relative;
 }
