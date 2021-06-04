@@ -1,0 +1,33 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+);
+
+$container-max-widths: (
+  xs: 100%,
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+);
+
+$colors: (
+  white: #ffffff,
+  black: #000000,
+  red: #eb4d55,
+  gray1: #eeeeee,
+  gray2: #e9e9e9,
+  gray3: #dddddd,
+  gray4: #4f4f4f,
+);
+
+$white: #ffffff;
+$black: #000000;
+$red: #eb4d55;
+$gray1: #eeeeee;
+$gray2: #e9e9e9;
+$gray3: #dddddd;
+$gray4: #4f4f4f;
