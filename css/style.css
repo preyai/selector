@@ -58,7 +58,7 @@ img {
 
 @media (max-width: 575.98px) {
   .container {
-    max-width: 100%;
+    max-width: calc(100% - 20px);
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -110,6 +110,12 @@ img {
 
 .title.title-center {
   text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 24px;
+  }
 }
 
 nav ul {
@@ -424,6 +430,12 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .form {
+    padding: 15px;
+  }
 }
 
 .form label {

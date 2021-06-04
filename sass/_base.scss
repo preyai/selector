@@ -73,6 +73,9 @@ img {
   &.title-center {
     text-align: center;
   }
+  @include media-breakpoint-down("md") {
+    font-size: 24px;
+  }
 }
 nav {
   ul {
@@ -281,6 +284,9 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  @include media-breakpoint-down("md") {
+    padding: 15px;
+  }
   label {
     color: $black;
     font-size: 18px;
@@ -288,6 +294,7 @@ footer {
     line-height: 29px;
     letter-spacing: 3.6px;
     padding-left: 50px;
+    
   }
   input,
   textarea {

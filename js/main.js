@@ -2,6 +2,7 @@ $(document).ready(function () {
     $('#partners').owlCarousel({
         margin: 55,
         autoHeight: false,
+        dots:false,
         responsive: {
             0: {
                 items: 1
