@@ -21,6 +21,14 @@ p {
     color: $red;
   }
 }
+ul {
+  li {
+    color: $black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  }
+}
 img {
   max-width: 100%;
 }
@@ -156,6 +164,8 @@ nav {
     img {
       filter: sepia(220) grayscale(1) brightness(1.5);
       transition: 0.3s;
+      max-width: 70%;
+    margin: auto;
     }
     &:hover {
       img {
